@@ -13,13 +13,13 @@ export default function ChangeObj(props) {
       setIndex(index + 1);
     }
   }
-  
+
   return (
-    <div>      
+    <div>
       <h1>이름 : {obj.name}</h1>
       <h2>나이 : {obj.age}</h2>
       <h2>별명 : {obj.nickName}</h2>
       <button onClick={changeProfile}>프로필 변경</button>
     </div>
-  )
+  );
 }

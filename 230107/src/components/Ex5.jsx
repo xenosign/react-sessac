@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import ChangeObj from './ChangeObj';
 
 export default function Ex5() {
@@ -6,22 +6,22 @@ export default function Ex5() {
     {
       name: '뽀로로',
       age: '5',
-      nickName: '사고뭉치'
+      nickName: '사고뭉치',
     },
     {
       name: '루피',
       age: '4',
-      nickName: '공주님'
+      nickName: '공주님',
     },
     {
       name: '크롱',
       age: '5',
-      nickName: '장난 꾸러기'
+      nickName: '장난 꾸러기',
     },
   ];
   return (
     <div>
       <ChangeObj objArr={pororoObjArr} />
     </div>
-  )
+  );
 }
