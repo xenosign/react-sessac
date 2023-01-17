@@ -7,6 +7,6 @@
   "[javascriptreact]": {
     "editor.maxTokenizationLineLength": 2500,
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode", 
   }
 }
