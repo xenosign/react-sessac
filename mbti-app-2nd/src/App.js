@@ -24,7 +24,7 @@ function App() {
       <Main>
         {page === 0 ? (
           <Start />
-        ) : page <= survey.length + 1 ? (
+        ) : page !== survey.length + 1 ? (
           <Mbti />
         ) : (
           <Show />
